@@ -3,11 +3,11 @@
 Processo ETL de validação de GTINs coletados no mercado e agregação de informações.
 
 ### Regras de Negócio
-1. Validação de GTIN existente através da identificação do endereço do fabricante (arquivo [gs1.ls](inputs/gs1.ls))
+1. Validação de GTIN existente através da identificação do endereço do fabricante (arquivo [gs1.jl](inputs/gs1.jl))
 
 ### Requisitos de instalação
-- `Git`
-- `Python`
+- Git
+- Python
 
 ### Execução do código
 - Acesse o diretório desejado no seu computador via terminal e clone o projeto:  
