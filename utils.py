@@ -67,7 +67,7 @@ def extract_gs1(file: str):
                     gs1_list.append({'gtin': gtin, 'city': city, 'state': state})
                 except:
                     pass
-    
+
     return pd.DataFrame(data=gs1_list)
 
 
@@ -77,4 +77,5 @@ def extract_infomix(file: str):
     Parameters:
     - file: .csv file with path to be read.
     """
+
     return pd.read_csv(file, sep='\t', dtype='str')
